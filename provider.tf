@@ -8,6 +8,5 @@ terraform {
 }
 
 provider "google" {
-    project = "fiery-chess-417809"
     region = "asia-south1"
 }

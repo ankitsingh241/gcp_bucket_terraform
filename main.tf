@@ -1,4 +1,5 @@
 resource "google_storage_bucket" "project_terraform" {
-  name          = "project_terraform_gcp_bucket"
+  name          = var.bucket_name
   location      = "asia-south1"
+  project       = var.projectid
 }
